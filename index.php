@@ -18,7 +18,7 @@
 <div class="container">
     <?php if ($_SERVER['REQUEST_METHOD'] === 'GET') { ?>
 
-        <form action="form.php" method="post">
+        <form action="index.php" method="post">
             <h3 style="text-align: center">Введите следующую информацию: </h3>
             <div class="mb-3">
                 <label for="exampleFormControlInput1" class="form-label">Имя</label>
